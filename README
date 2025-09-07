@@ -1,0 +1,37 @@
+SpreadSheet Project
+
+
+
+Features:
+
+1 - Beautiful and sophisticated graphical design - The default interface is easy to navigate,
+with everything designed to be clear (somewhat resembling Excel).
+
+2 - Text customization - Font resizing, coloring, alignment (left, right, center).
+
+3 - Implementation of various mathematical functions such as min, max, sum, average, sqrt, if, countif,
+with simple examples provided for each function's usage (examples are provided within the input equation box,
+please refer to them before usage).
+
+4 - Undo/redo functionality - Use Ctrl + Z or Ctrl + Y to undo or redo text entry in each text box.
+
+5 - Support for importing data from external sources - CSV, PDF, JSON, YAML, Excel.
+
+6 - Support for exporting sheets to various formats - CSV, PDF, JSON, YAML, Excel.
+
+7 - Automatic cell filling by dragging a neighboring cell containing a formula.
+
+8 - Automatic function filling by selecting cells where a specific function needs to be activated,
+then clicking on the desired function.
+
+
+
+Key Points:
+
+The program is divided into 5 different files, each representing its category, making the program modular.
+This allows for the addition or removal of features independently of other features,
+following the principles of object-oriented programming, especially evident in function nine.
+Exception handling using try/except blocks to handle all user-input errors based on their specific conditions.
+The "ImprovedCell" class: I pondered on how to build a cell with additional properties
+and functionalities not present in tkinter. This led me to learn about building a wrapper class
+to contain the tkinter Entry and other customizations specific to my program.
